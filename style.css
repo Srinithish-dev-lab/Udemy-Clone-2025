@@ -61,8 +61,8 @@ body {
   cursor: pointer;
 }
 
-.mylearning:hover .mylearning__popup{
-    display: block;
+.mylearning:hover .mylearning__popup {
+  display: block;
 }
 
 .mylearning__popup {
@@ -75,7 +75,6 @@ body {
   right: 0;
   display: none;
 }
-
 
 .categories {
   display: flex;
