@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Udemy</title>
+    <link rel="icon" href="images/udemy_icon.webp" />
+    <!-- My Style Sheet -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Google Style Sheet for fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gabarito&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome cdn Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Navbar Section-->
+    <div class="navbar">
+      <div class="navbar__s1">
+        <h1 class="navbar__s1__title">Udemy</h1>
+      </div>
+
+      <div class="navbar__s2">
+        <i class="fa-solid fa-magnifying-glass" style="color: #000000"></i>
+        <input
+          placeholder="Search for anything here Tech, Business, Design.."
+        />
+      </div>
+
+      <div class="navbar__s3">
+        <p>Courses</p>
+        <div class="mylearning">
+          <p>My Learnings</p>
+          <div class="mylearning__popup">
+            <p>You did not purchase anything yet.</p>
+          </div>
+        </div>
+        <i class="fa-solid fa-cart-shopping" style="color: #000000"></i>  <!-- icons  -->
+        <i class="fa-solid fa-bell" style="color: #000000"></i>           <!-- icons  -->
+        <i class="fa-solid fa-user" style="color: #000000"></i>           <!-- icons  -->
+      </div>
+    </div>
+
+    <!-- Categories Section -->
+    <div class="categories">
+      <p>Development</p>
+      <p>Business</p>
+      <p>IT & Software</p>
+      <p>Personal Development</p>
+      <p>Design</p>
+      <p>Marketing</p>
+    </div>
+
+    <!-- Sale Image Section -->
+    <div class="sale_image">
+      <img src="./images/sale-image.jpg" alt="Sale image" />
+      <div class="sale_image__offer">
+        <h2>Udemy Flash Sale! 24 hours to save.</h2>
+        <p>
+          Get the top courses for just 499/-. Just one day to save but a
+          lifetime to learn
+        </p>
+      </div>
+    </div>
+
+    <!-- Recommended Section-->
+    <div class="recommended">
+      <h1 class="recommended__title">Recommended For You</h1>
+      <p class="recommended__subtitle">Pick the Best Fit</p>
+
+      <div class="recommended__container">
+        <div class="course__card">
+          <img src="./images/c1.jpg" alt="Course Image" />
+          <h3>100 Days of Code: The Complete Python Pro Bootcamp</h3>
+          <p>
+            Master Python by building 100 projects in 100 days. Learn data
+            science, automation, build websites, games and apps!
+          </p>
+          <p>4.9 ⭐⭐⭐⭐⭐</p>
+          <p>₹499 <del>3,499</del></p>
+        </div>
+
+        <div class="course__card">
+          <img src="./images/c4.jpg" alt="Course Image" />
+          <h3>The Complete AI Guide: Learn ChatGPT, Generative AI & More</h3>
+          <p>
+            50+ Generative AI Tools to 10x Business, Productivity, Creativity |
+            ChatGPT, Artificial Intelligence, Prompt Engineering
+          </p>
+          <p>4.9 ⭐⭐⭐⭐⭐</p>
+          <p>₹1,999 <del>5,499</del></p>
+        </div>
+
+        <div class="course__card">
+          <img src="./images/c2.jpg" alt="Course Image" />
+          <h3>React - The Complete Guide 2025 (incl. Next.js, Redux)</h3>
+          <p>
+            Dive in and learn React.js from scratch! Learn React, Hooks, Redux,
+            React Router, Next.js, Best Practices and way more!
+          </p>
+          <p>4.6 ⭐⭐⭐⭐⭐</p>
+          <p>₹1799 <del>3,999</del></p>
+        </div>
+
+        <div class="course__card">
+          <img src="./images/c3.jpg" alt="Course Image" />
+          <h3>Adobe Premiere Pro Masterclass: Video Editing in Premiere</h3>
+          <p>
+            Learn Beginner-Advanced Adobe Premiere Pro Video Editing, Audio
+            Editing, Color Grading, Motion Graphics, Green Screen+
+          </p>
+          <p>4.7 ⭐⭐⭐⭐⭐</p>
+          <p>₹1399 <del>4,499</del></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Topics Section-->
+    <div class="topics">
+      <h1 class="topics__title">Topics Recommended For You</h1>
+      <div class="topics__container">
+        <p>React JS</p>
+        <p>Node JS</p>
+        <p>Express JS</p>
+        <p>Mongo DB</p>
+        <p>Docker</p>
+        <p>Amazon AWS</p>
+        <p>Web Development</p>
+        <p>Data Science</p>
+        <p>Machine Learning</p>
+      </div>
+    </div>
+
+    <!-- Popular Setion -->
+    <div class="popular">
+      <h1 class="popular__title">Most Popular</h1>
+      <p class="popular__subtitle">Pick the Best Fit</p>
+
+      <div class="popular__container">
+        <div class="course__card">
+          <img src="./images/c5.jpg" alt="Course Image" style="height: 233" />
+          <h3>The Complete Ethical Hacking Course: Beginner to Advanced!</h3>
+          <p>
+            Learn how to do ethical hacking, penetration testing, web testing,
+            and wifi hacking using kali linux!
+          </p>
+          <p>4.2 ⭐⭐⭐⭐</p>
+          <p>₹1999 <del>2,499</del></p>
+        </div>
+
+        <div class="course__card">
+          <img src="./images/c6.jpg" alt="Course Image" />
+          <h3>The Ultimate Guide to IoT with Raspberry Pi and Python -2024</h3>
+          <p>
+            Hands-On Raspberry Pi Projects: Unleash Your Creativity with Python,
+            Linux, GPIO, Thingspeak, AWS IoT Core, IFTTT,Twilio
+          </p>
+          <p>4.3 ⭐⭐⭐⭐</p>
+          <p>₹799 <del>1,999</del></p>
+        </div>
+
+        <div class="course__card">
+          <img src="./images/c7.jpg" alt="Course Image" />
+          <h3>Architectural Design Master-Class Course--Beginner to Expert</h3>
+          <p>
+            The most comprehensive step-by-step Architectural Design
+            Master-Class Course for professionals and students
+          </p>
+          <p>4.8 ⭐⭐⭐⭐⭐</p>
+          <p>₹2,299 <del>2,999</del></p>
+        </div>
+
+        <div class="course__card">
+          <img src="./images/c8.jpg" alt="Course Image" />
+          <h3>The Complete Electronics Course: Analog Hardware Design</h3>
+          <p>
+            Learn Analog / Digital Electronics and PCB Design from the Ground up
+            with Altium CircuitMaker and Labcenter Proteus
+          </p>
+          <p>4.7 ⭐⭐⭐⭐⭐</p>
+          <p>₹1,599 <del>3,899</del></p>
+        </div>
+
+        <div class="course__card">
+          <img src="./images/c1.jpg" alt="Course Image" />
+          <h3>100 Days of Code: The Complete Python Pro Bootcamp</h3>
+          <p>
+            Master Python by building 100 projects in 100 days. Learn data
+            science, automation, build websites, games and apps!
+          </p>
+          <p>4.9 ⭐⭐⭐⭐⭐</p>
+          <p>₹499 <del>3,499</del></p>
+        </div>
+
+        <div class="course__card">
+          <img src="./images/c4.jpg" alt="Course Image" />
+          <h3>The Complete AI Guide: Learn ChatGPT, Generative AI & More</h3>
+          <p>
+            50+ Generative AI Tools to 10x Business, Productivity, Creativity |
+            ChatGPT, Artificial Intelligence, Prompt Engineering
+          </p>
+          <p>4.9 ⭐⭐⭐⭐⭐</p>
+          <p>₹1,999 <del>5,499</del></p>
+        </div>
+
+        <div class="course__card">
+          <img src="./images/c2.jpg" alt="Course Image" />
+          <h3>React - The Complete Guide 2025 (incl. Next.js, Redux)</h3>
+          <p>
+            Dive in and learn React.js from scratch! Learn React, Hooks, Redux,
+            React Router, Next.js, Best Practices and way more!
+          </p>
+          <p>4.6 ⭐⭐⭐⭐⭐</p>
+          <p>₹1799 <del>3,999</del></p>
+        </div>
+
+        <div class="course__card">
+          <img src="./images/c3.jpg" alt="Course Image" />
+          <h3>Adobe Premiere Pro Masterclass: Video Editing in Premiere</h3>
+          <p>
+            Learn Beginner-Advanced Adobe Premiere Pro Video Editing, Audio
+            Editing, Color Grading, Motion Graphics, Green Screen+
+          </p>
+          <p>4.7 ⭐⭐⭐⭐⭐</p>
+          <p>₹1399 <del>4,499</del></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer">
+      <div class="footer__one">
+        <div class="footer__one__s1">
+          <h3>About</h3>
+          <p>Careers</p>
+          <p>Contact Us</p>
+          <p>Blog</p>
+          <p>Investors</p>
+          <p>About Us</p>
+        </div>
+
+        <div class="footer__one__s2">
+          <h3>Discover Udemy</h3>
+          <p>Get the App</p>
+          <p>teach on Udemy</p>
+          <p>Plans and Pricing</p>
+          <p>Affiliate</p>
+          <p>Help and Support</p>
+        </div>
+
+        <div class="footer__one__s3">
+          <h3>Data Science</h3>
+          <p>Data Science</p>
+          <p>Python</p>
+          <p>Machine Learning</p>
+          <p>ChatGPT</p>
+          <p>Deep Learning</p>
+        </div>
+
+        <div class="footer__one__s4">
+          <h3>Legal & Accessibility</h3>
+          <p>Accessibility statement</p>
+          <p>Privacy policy</p>
+          <p>Sitemap</p>
+          <p>Terms</p>
+          <p>Conditions</p>
+        </div>
+
+        <div class="footer__one__s5">
+          <h3>IT Certifications</h3>
+          <p>Amazon AWS</p>
+          <p>AWS Certified Cloud Practitioner</p>
+          <p>AZ-900: Microsoft Azure Fundamentals</p>
+          <p>AWS Certified Solutions Architect - Associate</p>
+          <p>Kubernetes</p>
+        </div>
+
+        <div class="footer__one__s6">
+          <h3>Udemy for Business</h3>
+          <p>Udemy Business</p>
+        </div>
+      </div>
+
+      <div class="footer__two">
+        <h1>Udemy</h1>
+        <p>&copy; Udemy, Inc</p>
+      </div>
+    </div>
+  </body>
+</html>
