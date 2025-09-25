@@ -21,7 +21,7 @@ A **static clone of the Udemy website** built using **HTML5, CSS3, and Font Awes
 
 ## 🌐 Live Demo
 
-Check out the live website here: [Udemy Clone Live](https://<your-live-link>.vercel.app)
+Check out the live website here: [Udemy Clone Live](https://udemy-clone-2025.vercel.app/)
 
 ## 📂 GitHub Repository
 
