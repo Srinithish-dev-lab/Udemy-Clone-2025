@@ -1,8 +1,6 @@
 # 🎓 Udemy Clone – Static Website
 
-[![HTML](https://img.shields.io/badge/HTML-5-orange?logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)  
-[![CSS](https://img.shields.io/badge/CSS-3-blue?logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)  
-[![License](https://img.shields.io/badge/License-MIT-green)](https://opensource.org/licenses/MIT)
+[![HTML](https://img.shields.io/badge/HTML-5-orange?logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)  [![CSS](https://img.shields.io/badge/CSS-3-blue?logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS) [![License](https://img.shields.io/badge/License-MIT-green)](https://opensource.org/licenses/MIT)
 
 A **static clone of the Udemy website** built using **HTML5, CSS3, and Font Awesome**. This project replicates Udemy’s layout, including the navbar, course cards, recommended sections, popular courses, topics, and footer. It demonstrates **responsive design** and modern UI/UX practices.
 
@@ -27,7 +25,7 @@ Check out the live website here: [Udemy Clone Live](https://<your-live-link>.ver
 
 ## 📂 GitHub Repository
 
-View the source code here: [Udemy Clone Repo](https://github.com/<your-username>/udemy-clone)
+View the source code here: [Udemy Clone Repo](https://github.com/Srinithish-dev-lab/Udemy-Clone-2025)
 
 ---
 
